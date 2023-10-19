@@ -87,6 +87,6 @@ class birddata:
             DirectoryPopulator.populate("train",trainpictures,birdname,self.contentpath)
             DirectoryPopulator.populate("test",testpictures,birdname,self.contentpath)
 
-            print("Bird #"+str(i) + " " + birdname + ": Completed")
+            print("Bird Species#"+str(i) + " " + birdname + ": Completed")
         
         
